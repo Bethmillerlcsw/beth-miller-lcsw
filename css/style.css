@@ -923,13 +923,6 @@ footer .social-btns a:hover {
     color: #254e70;
   }
 
-  .contact-click {
-    text-align: center;
-  }
-  .contact-click a {
-    margin-top: 4rem;
-  }
-
   .contact-image {
     background: url("../img/thiago-cerqueira-unsplash.jpg") center no-repeat #254e70;
     background-size: cover;
