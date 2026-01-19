@@ -435,9 +435,10 @@ footer .social-btns a:hover {
 }
 
 .contact-image {
-  background: url("../img/thiago-cerqueira-unsplash.jpg") center no-repeat #254e70;
+  border-top: 2px solid #254e70;
+  background: url("../img/vardan-papikyan-unsplash.jpg") center no-repeat #254e70;
   background-size: cover;
-  min-height: 500px;
+  min-height: 300px;
 }
 
 /* ----- TABLET STYLES ----- */
@@ -542,6 +543,11 @@ footer .social-btns a:hover {
   .contact-info h3 {
     text-align: left;
   }
+
+  .contact-image {
+    min-height: 500px;
+  }
+
 }
 /* ----- DESKTOP STYLES ----- */
 @media (min-width: 992px) {
@@ -924,8 +930,6 @@ footer .social-btns a:hover {
   }
 
   .contact-image {
-    background: url("../img/thiago-cerqueira-unsplash.jpg") center no-repeat #254e70;
-    background-size: cover;
     min-height: 800px;
   }
 }
